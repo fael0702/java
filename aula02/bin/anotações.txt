@@ -1,0 +1,7 @@
+variaveis em java são chamadas de atributos, funções são chamadas de metodos 
+
+criar projeto java vscode:
+ctrl + shift + p 
+java: create java project -> no build tools
+seleciona local para criar projeto
+insira o nome do projeto
