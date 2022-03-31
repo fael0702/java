@@ -1,3 +1,4 @@
+package banco;
 public class TesteConta {
     public static void main(String[] args) {
         // instanciar um objeto do tipo conta 
@@ -7,7 +8,7 @@ public class TesteConta {
         contaCebolinha.saldo = 2050.07;
         contaCebolinha.nConta = "3333-33";
         contaCebolinha.limite = 500;
-        contaCebolinha.nomeCliente = "Cebolinha";  
+        //contaCebolinha.nomeCliente = "Cebolinha";  
 
         System.out.println("Objeto contaCebolinha" + contaCebolinha);
         System.out.println("Saldo: R$ " + contaCebolinha.saldo);

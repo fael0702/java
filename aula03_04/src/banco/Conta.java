@@ -1,7 +1,12 @@
+package banco;
+/**
+ * Conta
+ */
 public class Conta {
+    //atributos
     String nConta;
     String agencia;
-    String nomeCliente;
+    Titular titular;
     double saldo;
     double limite;
     
@@ -38,5 +43,15 @@ public class Conta {
         }else{
             return false;
         }
+    }
+
+    public void extrato(){
+        System.out.println("---Extrato---");
+        System.out.println("Titular: " + titular.nome);
+        System.out.println("CPF: " + titular.cpf);
+        System.out.println("-----------------------------");
+        System.out.println("Ag: " + agencia + " Conta: " + nConta);
+        System.out.println("Limite R$: " + limite);
+        System.out.println("Disponivel R$: " + (saldo+limite));
     }
 }

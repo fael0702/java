@@ -1,2 +1,0 @@
-gerar public class: digitar class e apertar tab
-criar main: digite main e apertar tab

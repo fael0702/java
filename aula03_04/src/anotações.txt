@@ -1,0 +1,3 @@
+gerar public class: digitar class e apertar tab
+criar main: digite main e apertar tab
+this: pode ser usado para acessar tanto atributos como metodos internos 
