@@ -1,0 +1,10 @@
+gerar public class: digitar class e apertar tab
+criar main: digite main e apertar tab
+this: pode ser usado para acessar tanto atributos como metodos internos 
+
+- privado: somente a propria classe pode acessar (recomendando para encapsulamento)
+
++ publico: qualquer classe do projeto pode acessar
+
+# protegido: permitido a todos as classes do mesmo 
+pacote(classes dentro do mesmo diretorio -> package) e também as subclasses
